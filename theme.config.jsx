@@ -1,9 +1,14 @@
 import Link from 'next/link'
+import { useConfig } from 'nextra-theme-docs'
 
 export default {
     logo: <span>Диссертация</span>,
-    head: (
+    head() {
+        const { frontMatter } = useConfig()
+
+        return (
         <>
+            <title>{frontMatter.title}</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta property="og:title" content="Диссертация" />
             <meta property="og:description" content="The next site builder" />
@@ -20,7 +25,7 @@ export default {
                 }}
             />
         </>
-    ),
+    )},
     search: {
         placeholder: 'Поиск документации...'
     },
