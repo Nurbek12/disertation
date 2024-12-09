@@ -1,6 +1,19 @@
 export default {
-    index: 'Бош сахифа',
-    welcome: 'Кириш',
+    index: {
+        display: 'hidden',
+        type: 'page',
+        theme: {
+            layout: 'full',
+            breadcrumb: false,
+            footer: false,
+            sidebar: false,
+            toc: false,
+            pagination: false,
+        },
+    },
+    welcome: {
+        title: 'Кириш'
+    },
     chapter1: '1 боб. Юксак сув ва сув бўйи ўсимликлари ҳамдаулардан фойдаланиш',
     chapter2: '2 боб. Тадқиқот олиб борилган ҳудуднинг табиийгеографик хусусиятлари. тадқиқот объекти, материали ва услублари',
     'samarqand-viloyati-yuksak-suv-va-suv-buyi-usimliklarining-flora-konspekti': '3 боб. Самарқанд вилояти юксак сув ва сув бўйи ўсимликларининг флора конспекти',

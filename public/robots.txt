@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://samarkand-veterinariya-med-disertatio.netlify.app
+
+# Sitemaps
+Sitemap: https://samarkand-veterinariya-med-disertatio.netlify.app/sitemap.xml
